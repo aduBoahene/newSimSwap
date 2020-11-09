@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="io.acsint.mtngh.simswap.tab_Dashboard">
+    <item
+        android:id="@+id/action_rotate"
+        android:orderInCategory="100"
+        android:title=""
+        android:icon="@android:drawable/ic_menu_rotate"
+        app:showAsAction="always" />
+</menu>

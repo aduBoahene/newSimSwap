@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1dp"
+    android:layout_marginBottom="0dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="1dp"
+        app:cardBackgroundColor="@color/colorPrimaryWhite"
+        android:background="@color/colorPrimaryWhite"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="0dp"
+            android:weightSum="10"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:src="@drawable/no_image" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:paddingTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <ImageView
+                        android:id="@+id/msisdnIconImageView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_weight="0.3"
+                        android:src="@drawable/icon_label_phone_black_24p" />
+
+                    <TextView
+                        android:id="@+id/msisdn"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryBlack"
+                        android:layout_weight="1"
+                        android:text="nsisdn" />
+
+                    <ImageView
+                        android:id="@+id/idTypeIconImageView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_weight="0.3"
+                        android:src="@drawable/icon_label_serial_number_black_24p" />
+
+                    <TextView
+                        android:id="@+id/serial"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryBlack"
+                        android:layout_weight="1"
+                        android:text="Serial Number" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="3dp">
+
+                    <ImageView
+                        android:id="@+id/serialIconImageView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_weight="0.3"
+                        android:src="@drawable/icon_label_id_type_black_24p"
+                        tools:layout_editor_absoluteX="144dp" />
+
+                    <TextView
+                        android:id="@+id/idtype"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryBlack"
+                        android:layout_weight="1"
+                        android:text="idtype" />Ò
+
+                    <ImageView
+                        android:id="@+id/idNumberIconImageView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_weight="0.3"
+                        android:src="@drawable/icon_label_id_number_black_24p" />
+
+                    <TextView
+                        android:id="@+id/idNumber"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryBlack"
+                        android:layout_weight="1"
+                        android:text="ID Number" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="3dp">
+
+                    <ImageView
+                        android:id="@+id/fullNameIconImageView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_weight="0.15"
+                        android:src="@drawable/icon_label_name_black_24p"
+                        tools:layout_editor_absoluteX="144dp" />
+
+                    <TextView
+                        android:id="@+id/fullNameTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryBlack"
+                        android:layout_weight="1"
+                        android:text="Full Name" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="3dp">
+
+                    <ImageView
+                        android:id="@+id/reasonIconImageView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_weight="0.15"
+                        android:src="@drawable/icon_label_reason_black_24p"
+                        tools:layout_editor_absoluteX="144dp" />
+
+                    <TextView
+                        android:id="@+id/reason"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryBlack"
+                        android:layout_weight="1"
+                        android:text="Reason" />
+
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/colorPrimaryLightYellow"></View>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

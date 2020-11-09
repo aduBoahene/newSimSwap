@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SIM Swap</string>
+    <string name="simTabPage">SIM Swap Requests</string>
+    <string name="title_activity_main">SIM Swap</string>
+    <!--<string name="sample_string">"some test line 1 \n some test line 2"</string>-->
+    <string name="login_activity_label">MTNGH SIM Swap App</string>
+
+    <string name="title_activity_id_verification_request">Verify ID Number (1/7)</string>
+    <string name="title_activity_id_verification_result">Verify ID Results (2/7)</string>
+    <string name="title_activity_sim_swap_attachment">Attach Photos (6/7)</string>
+    <string name="title_activity_sim_swap_request"> New Swap Request (5/7)</string>
+    <string name="title_activity_sim_swap_validate_result">Validation Results (4/7)</string>
+    <string name="title_activity_sim_swap_validate_request">Validate Subscriber No (3/7)</string>
+    <string name="title_activity_sim_swap_confirmation">Confirm Swap Request (7/7)</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="title_activity_login_with_sms">LoginWithSms</string>
+    <string name="title_activity_swap_request_detail_view">SwapRequestDetailViewActivity</string>
+
+    <string name="title_activity_sim_swap_request_detail_view">Submitted Swap Details</string>
+    <string name="title_activity_face_detection">FaceDetectionActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
